@@ -24,10 +24,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-<<<<<<< HEAD
           push: true
           tags: afloreshn/gaexampleone:${{ github.sha }}
-=======
-          push: false
-          tags: afloreshn/gaexampleone:${{ github.sha }} 
->>>>>>> 07a2be186285530ea6c545f52b8af193e94aa45d
+
